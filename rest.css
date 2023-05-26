@@ -1,0 +1,572 @@
+html {
+    background-color: #a2f57265;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media only screen and (max-device-width: 2000px) {
+    /* .menu { width:600px; } */
+}
+
+*::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #C4E47C;
+
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2a6c24b4;
+}
+
+* {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: #f0fadb;
+}
+
+.IMAGEMDOTOPO {
+    width: 8cm;
+}
+
+.IMAGEMDOLOGO {
+    width: 9cm;
+}
+
+
+.IMAGEMDAFOLHA2 {
+    width: 17cm;
+}
+
+
+.IMAGEMDAFOLHA1 {
+    width: 17cm;
+}
+
+.imagensFOLHA {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -300px;
+}
+
+.segundocabeçalho {
+    text-align: center;
+    font-size: 3cm;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0fadb;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #2f4e0a;
+    border-radius: 50px;
+    background-size: contain;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #2A6C24;
+    border-color: #ffffff;
+    border-radius: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17%;
+}
+
+button a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #ffffff;
+}
+
+.DEGRADE1 {
+    color: #C4E47C;
+    background-color: #C4E47C;
+    height: 35px;
+}
+
+.DEGRADE2 {
+    color: #2a6c24b4;
+    background-color: #2a6c24b4;
+    height: 20px;
+}
+
+.senai {
+    margin-top: 2%;
+    width: 25%;
+}
+
+.bglhdosenai {
+    background-color: #ffffff;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100px;
+}
+
+.lo {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+    margin-top: 0%;
+    border-radius: 50px;
+    transition-duration: 1s;
+    transform: translateX(0) scale(0.6);
+    -webkit-text-stroke: 0.3px;
+}
+
+.lo:hover {
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(00.8);
+    transform: scale(0.8);
+}
+
+.pgpg {
+    font-size: 250%;
+    margin-top: 3.5%;
+    border-style: double;
+    border-color: green;
+    border-width: 10px;
+    width: 70%;
+    background-color: #98B638;
+    border-radius: 50px;
+}
+
+.imgsímbolo{
+    position: absolute;
+    top: 155%;
+    left: 38%;
+    width:25%;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+.imgsímbolo:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+.imgpgrs {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.rodrigo {
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    position: absolute;
+    left: 18%;
+    top: 73%;
+}
+
+.alberto {
+    color: rgb(0, 0, 0);
+    font-size: 220%;
+    top: 220%;
+    position: absolute;
+    left: 32%;
+
+}
+
+.het {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 190%;
+    left: 59%;
+    list-style-type: none;
+    width: 40%;
+}
+
+.rlt {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 230%;
+}
+
+.astolfo {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 96%;
+    left: 5%;
+    width: 40%;
+    list-style-type: none;
+}
+
+.RODOLFO {
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    position: absolute;
+    top: 82%;
+    left: 39%;
+}
+
+.saneamento {
+    position: absolute;
+    width: 40%;
+    top: -50%;
+    right: 50%;
+}
+
+.saneamentop {
+    position: absolute;
+    top: 45%;
+    left: 20.7%;
+}
+
+.comércio {
+    position: absolute;
+    width: 32%;
+    top: 50%;
+    right: 54%;
+}
+
+.comérciop {
+    position: absolute;
+    top: 172%;
+    right: 59.5%;
+}
+
+.construção {
+    position: absolute;
+    width: 22%;
+    top: -49%;
+    left: 75%;
+}
+
+.construçãop {
+    position: absolute;
+    top: 45.9%;
+    left: 77%;
+}
+
+.resíduos {
+    position: absolute;
+    width: 28%;
+    top: 59%;
+    left: 72%;
+}
+
+.resíduosp {
+    position: absolute;
+    top: 172%;
+    left: 65.5%;
+    width: 40%;
+}
+
+.indústria {
+    position: absolute;
+    width: 25%;
+    top: -67.6%;
+    left: 130%;
+}
+
+.indústriap {
+    position: absolute;
+    top: 39.5%;
+    left: 123%;
+    width: 40%;
+}
+
+.saúde {
+    position: absolute;
+    width: 31%;
+    top: 59%;
+    left: 128%;
+}
+
+.saúdep {
+    position: absolute;
+    top: 172%;
+    left: 128%;
+    width: 30%;
+}
+
+.mineração {
+    position: absolute;
+    width: 18%;
+    top: -40%;
+    left: 193%;
+}
+
+.mineraçãop {
+    position: absolute;
+    top: 40.6%;
+    left: 187%;
+    width: 30%;
+}
+
+.rodovia {
+    position: absolute;
+    width: 25%;
+    top: 90%;
+    left: 190%;
+}
+
+.rodoviap {
+    position: absolute;
+    top: 170.6%;
+    left: 187.5%;
+    width: 30%;
+}
+
+.v1{
+    position: absolute;
+    top: 150%;
+    right: 5%;
+}
+
+.v2{
+    position: absolute;
+    top: 150%;
+    left: 5%;
+}
+
+.nsei {
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    position: absolute;
+    top: 220%;
+    left:56.5%;
+    list-style-type: none;
+}
+.tit{
+    position: absolute;
+    top: 210%;
+    left: 58.5%;
+    font-size: 55px;
+}
+
+.imgpgpg{
+    position: absolute;
+    top: 210%;
+    left: 20%;
+    width: 20%;
+    border-radius: 100%;
+    border-style: double;
+    border-width: 10px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+}
+
+.imgpgpg:hover {
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(2.0);
+    
+}
+
+
+.prcdm {
+    width: 30%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 127%;
+    left: 5%;
+}
+
+.sds {
+    width: 30%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 150%;
+    left: 5%;
+}
+
+.rcc {
+    width: 32%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 127%;
+    right: 4.5%;
+}
+
+.rsu {
+    width: 30%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 148%;
+    right: 5%;
+}
+
+.PGRCC {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 124%;
+    right: 16%;
+}
+
+.lista {
+    width: 21%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 145%;
+    left: 37%;
+    list-style-type: none;
+}
+
+.fgjh {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 124%;
+    left: 10%;
+}
+
+.abcd {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 145%;
+    left: 10%;
+}
+
+.pgrsu {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    position: absolute;
+    top: 145%;
+    right: 15%;
+}
+
+.rodapepe {
+    background-color: #CFFCB4;
+    height: 20em;
+    width: 100%;
+}
+
+.imf {
+    width: 13%;
+    position: absolute;
+    left: 44%;
+    top: 314%;
+}
+
+.apa {
+    width: 15%;
+    position: absolute;
+    left: 7%;
+    top: 331%;
+}
+
+.din {
+    width: 5%;
+    position: absolute;
+    left: 12.5%;
+    top: 318%;
+}
+
+.prj {
+    width: 20%;
+    position: absolute;
+    left: 39.9%;
+    top: 332%;
+}
+
+.fal {
+    width: 15%;
+    position: absolute;
+    right: 9%;
+    top: 321%;
+}
+
+.face {
+    width: 3%;
+    position: absolute;
+    right: 21%;
+    top: 329%;
+}
+
+.insta {
+    width: 2.7%;
+    position: absolute;
+    right: 9%;
+    top: 329.89%;
+}
+
+.lin {
+    width: 3.4%;
+    position: absolute;
+    right: 14.9%;
+    top: 328.8%;
+}
+
+.l1 {
+    background-color: #466C06;
+    height: 20%;
+    width: 0.2%;
+    border-radius: 50px;
+    position: absolute;
+    left: 34%;
+    top: 318.5%;
+}
+
+.l2 {
+    background-color: #466C06;
+    height: 20%;
+    width: 0.2%;
+    border-radius: 50px;
+    position: absolute;
+    right: 34%;
+    top: 318.5%;
+}
+
+.l3 {
+    background-color: #98B638;
+    height: 0.7%;
+    width: 30%;
+    border-radius: 50px;
+    position: absolute;
+    left: 69.5%;
+    top: 313.6%;
+    border: solid #98B638;
+}
+
+.l4 {
+    background-color: #466C06;
+    height: 0.8%;
+    width: 20%;
+    border-radius: 50px;
+    position: absolute;
+    left: 79.5%;
+    top: 315.2%;
+    border: solid #466C06;
+}
+
+.l6 {
+    background-color: #466C06;
+    height: 0.8%;
+    width: 20%;
+    border-radius: 50px;
+    position: absolute;
+    top: 339%;
+    border: solid #466C06;
+    margin-left: -1%;
+}
